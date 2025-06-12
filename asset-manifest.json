@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "//github.com/DGuabiraba/pagina-namorados-amor/static/css/main.1b775bcd.css",
+    "main.js": "//github.com/DGuabiraba/pagina-namorados-amor/static/js/main.86d8df2d.js",
+    "static/media/Zé Vaqueiro - COLADIN (Video Oficial).mp3": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/Zé Vaqueiro - COLADIN (Video Oficial).24ad4f73700e46593bf2.mp3",
+    "static/media/20230326_201536.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20230326_201536.742083c21fc2768cb529.jpg",
+    "static/media/20230811_145749.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20230811_145749.90d3b8b989208bf6175a.jpg",
+    "static/media/20231231_234356.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20231231_234356.bd528f4026f941b44494.jpg",
+    "static/media/20241228_131351.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20241228_131351.75ef01de09a291f7b289.jpg",
+    "static/media/20241116_194816.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20241116_194816.493fa702c904ab03c9ef.jpg",
+    "static/media/20250420_155607.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20250420_155607.4389d9c0963a3bbc2e1c.jpg",
+    "static/media/20241012_134454.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20241012_134454.bfd083a0484795380b1a.jpg",
+    "static/media/20230715_175625.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20230715_175625.5ca75d8e1eb78760c0af.jpg",
+    "static/media/Screenshot_20220904-181439_One UI Home.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/Screenshot_20220904-181439_One UI Home.bb491577a6f5da7c5479.jpg",
+    "static/media/20230624_125430.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20230624_125430.f4b7f93de1dd9b85c3ba.jpg",
+    "static/media/20230610_215947.jpg": "//github.com/DGuabiraba/pagina-namorados-amor/static/media/20230610_215947.faa07a5fe775992164a5.jpg",
+    "index.html": "//github.com/DGuabiraba/pagina-namorados-amor/index.html",
+    "main.1b775bcd.css.map": "//github.com/DGuabiraba/pagina-namorados-amor/static/css/main.1b775bcd.css.map",
+    "main.86d8df2d.js.map": "//github.com/DGuabiraba/pagina-namorados-amor/static/js/main.86d8df2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b775bcd.css",
+    "static/js/main.86d8df2d.js"
+  ]
+}
