@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pagina-namorados-amor/static/css/main.1b775bcd.css",
-    "main.js": "/pagina-namorados-amor/static/js/main.1c2a24de.js",
+    "main.js": "/pagina-namorados-amor/static/js/main.a74f536c.js",
     "static/media/Zé Vaqueiro - COLADIN (Video Oficial).mp3": "/pagina-namorados-amor/static/media/Zé Vaqueiro - COLADIN (Video Oficial).24ad4f73700e46593bf2.mp3",
     "static/media/20230326_201536.jpg": "/pagina-namorados-amor/static/media/20230326_201536.742083c21fc2768cb529.jpg",
     "static/media/20230811_145749.jpg": "/pagina-namorados-amor/static/media/20230811_145749.90d3b8b989208bf6175a.jpg",
@@ -16,10 +16,10 @@
     "static/media/20230610_215947.jpg": "/pagina-namorados-amor/static/media/20230610_215947.faa07a5fe775992164a5.jpg",
     "index.html": "/pagina-namorados-amor/index.html",
     "main.1b775bcd.css.map": "/pagina-namorados-amor/static/css/main.1b775bcd.css.map",
-    "main.1c2a24de.js.map": "/pagina-namorados-amor/static/js/main.1c2a24de.js.map"
+    "main.a74f536c.js.map": "/pagina-namorados-amor/static/js/main.a74f536c.js.map"
   },
   "entrypoints": [
     "static/css/main.1b775bcd.css",
-    "static/js/main.1c2a24de.js"
+    "static/js/main.a74f536c.js"
   ]
 }
