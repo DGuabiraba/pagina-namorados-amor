@@ -1,0 +1,34 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* NOVO FUNDO GLOBAL: tons de creme/bege */
+  background: linear-gradient(135deg, #f8f8f8, #f0f0f0, #e8e8e8); /* Tons de cinza muito claro/quase branco */
+  background-size: 200% 200%; /* Gradiente sutil, não precisa de 400% */
+  animation: globalGradientAnimation 30s ease infinite; /* Animação bem mais lenta */
+
+  color: #333; /* Cor padrão para o texto */
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Animação do Gradiente Global (mais lenta) */
+@keyframes globalGradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

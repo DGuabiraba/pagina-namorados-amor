@@ -1,0 +1,24 @@
+/* src/components/Footer.css */
+.footer {
+  /* Fundo semitransparente */
+  background-color: rgba(216, 216, 216, 0.7); /* Rosa mais escuro com 70% de opacidade */
+  padding: 30px 20px;
+  color: #a0522d;
+  font-size: 1.1em;
+  border-top: 1px solid rgba(255, 204, 213, 0.5);
+  /* Adiciona efeito de blur (opcional) */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.footer-text {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.footer-copyright {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.9em;
+  opacity: 0.8;
+}

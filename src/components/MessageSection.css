@@ -1,0 +1,48 @@
+/* src/components/MessageSection.css */
+.message-section {
+  padding: 60px 20px;
+  background-color: #ffffff; /* Fundo branco puro */
+  border-top: none; /* Removi bordas */
+  border-bottom: none;
+  backdrop-filter: none; /* Remove o blur */
+  -webkit-backdrop-filter: none;
+}
+
+.message-title {
+  font-family: 'Pinyon Script', cursive; /* Usei Pinyon Script para títulos */
+  font-size: 2.8em;
+  color: #a0522d; /* Marrom avermelhado */
+  margin-bottom: 30px;
+}
+
+.typed-message {
+  font-family: 'Arial', sans-serif; /* Fonte limpa */
+  font-size: 1.4em; /* Levemente menor */
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555; /* Texto mais suave */
+  min-height: 100px;
+}
+
+/* Animação do cursor de digitação (mantenha) */
+.typed-message::after {
+  content: '|';
+  display: inline-block;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #555; } /* Ajustei a cor do cursor */
+}
+
+/* Responsividade (mantenha) */
+@media (max-width: 768px) {
+  .message-title {
+    font-size: 2.2em;
+  }
+  .typed-message {
+    font-size: 1.2em;
+  }
+}

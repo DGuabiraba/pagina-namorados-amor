@@ -1,0 +1,143 @@
+/* src/components/GallerySection.css */
+.gallery-section {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  position: relative;
+}
+
+.gallery-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.8em;
+  color: #a0522d;
+  margin-bottom: 40px;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px; /* Altura padrão para todas as fotos. Você pode ajustar este valor. */
+  background-color: #f0f0f0; /* Cor de fundo para preencher o espaço vazio, se a imagem for menor. */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  /* AQUI ESTÁ A MUDANÇA PRINCIPAL */
+  object-fit: contain; /* Garante que a imagem inteira seja visível, sem cortes */
+  display: block;
+  border-radius: 10px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 2em;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  user-select: none;
+  outline: none;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-button.prev {
+  left: 15px;
+}
+
+.carousel-button.next {
+  right: 15px;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dot.active {
+  background-color: #a0522d;
+  transform: scale(1.2);
+}
+
+.dot:hover {
+  background-color: #a0522d;
+}
+
+.gallery-hint {
+  margin-top: 50px;
+  font-size: 1.1em;
+  color: #888;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.no-images-message {
+    font-size: 1.5em;
+    color: #a0522d;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .gallery-title {
+    font-size: 2.2em;
+  }
+  .carousel-slide {
+    height: 350px; /* Ajusta a altura do carrossel para telas menores */
+  }
+  .carousel-button {
+    font-size: 1.5em;
+    padding: 10px 15px;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-slide {
+    height: 250px; /* Ajusta ainda mais para celulares */
+  }
+  .carousel-button {
+    font-size: 1.2em;
+    padding: 8px 12px;
+  }
+}

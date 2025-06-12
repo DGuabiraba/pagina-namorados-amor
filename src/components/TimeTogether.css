@@ -1,0 +1,143 @@
+/* src/components/TimeTogether.css */
+.time-together-section {
+  /* Fundo com gradiente animado em tons claros, harmonizando com o tema do site */
+  background: linear-gradient(135deg, #f0f0f0, #e8e8e8, #f0f0f0, #e8e8e8);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite; /* Animação do gradiente local */
+
+  color: #333; /* Texto escuro para fundo claro */
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+/* Animação do Gradiente da Seção */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.time-together-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3.5em;
+  color: #a0522d; /* Marrom avermelhado, da paleta */
+  margin-bottom: 20px;
+  text-shadow: none; /* Sem sombra no texto do título */
+}
+
+.start-date-text {
+  font-size: 1.2em;
+  color: #666; /* Tom de cinza mais suave */
+  margin-bottom: 40px;
+}
+
+.countdown-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+}
+
+.countdown-card {
+  /* Fundo do card mais claro, com transparência para o gradiente de fundo */
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #a0522d; /* Borda no tom da paleta */
+  border-radius: 15px;
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.countdown-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-value {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #a0522d; /* Cor do número */
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.card-label {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #666; /* Cor do rótulo */
+  letter-spacing: 1px;
+}
+
+.total-hours-info {
+  margin-top: 40px;
+}
+
+.total-hours-value {
+  font-size: 1.8em;
+  color: #a0522d;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.total-hours-words {
+  font-size: 1.2em;
+  color: #666;
+  text-transform: capitalize;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .countdown-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+  }
+  .time-together-title {
+    font-size: 2.8em;
+  }
+  .card-value {
+    font-size: 2.8em;
+  }
+  .card-label {
+    font-size: 0.9em;
+  }
+  .total-hours-value {
+    font-size: 1.5em;
+  }
+  .total-hours-words {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .time-together-title {
+    font-size: 2.2em;
+  }
+  .countdown-card {
+    padding: 15px 10px;
+  }
+  .card-value {
+    font-size: 2.2em;
+  }
+  .card-label {
+    font-size: 0.8em;
+  }
+}

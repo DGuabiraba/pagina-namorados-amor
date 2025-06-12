@@ -1,0 +1,34 @@
+/* src/components/Header.css */
+.header {
+  background-color: #ffffff; /* Branco puro, sem transparência */
+  padding: 20px 20px; /* Reduzi o padding um pouco */
+  text-align: center; /* Centralizado como no modelo */
+  color: #555; /* Cor de texto mais suave */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Sombra mais sutil */
+  backdrop-filter: none; /* Remove o blur */
+  -webkit-backdrop-filter: none;
+}
+
+.header-title {
+  font-family: 'Pinyon Script', cursive; /* Usei Pinyon para ser mais elegante, como no modelo */
+  font-size: 3em; /* Ajustei o tamanho */
+  margin-bottom: 5px; /* Menos margem */
+  color: #a0522d; /* Um marrom avermelhado suave, como no modelo */
+  text-shadow: none; /* Removi a sombra do texto */
+}
+
+.header-subtitle {
+  font-family: 'Arial', sans-serif; /* ou 'Open Sans', 'Lato' para um visual mais limpo */
+  font-size: 1.1em; /* Menor */
+  color: #888; /* Mais suave */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 2.2em;
+  }
+  .header-subtitle {
+    font-size: 1em;
+  }
+}

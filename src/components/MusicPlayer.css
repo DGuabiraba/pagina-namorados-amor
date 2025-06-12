@@ -1,0 +1,73 @@
+/* src/components/MusicPlayer.css */
+.music-player-container {
+  background-color: #ffffff; /* Um rosa claro para o container do player */
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 350px; /* Largura máxima do player */
+}
+
+.play-pause-button {
+  background-color: #a0522d; /* Rosa vibrante */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.play-pause-button:hover {
+  background-color: #a0522d; /* Rosa mais escuro no hover */
+  transform: translateY(-2px);
+}
+
+.play-pause-button:active {
+  transform: translateY(0);
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+}
+
+.volume-control input[type="range"] {
+  width: 150px;
+  -webkit-appearance: none; /* Remove estilos padrão do navegador */
+  height: 8px;
+  background: #645c88; /* Fundo da barra de volume */
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.volume-control input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #7a7577; /* Cor do "bolinha" do volume */
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.volume-control input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #929191;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
