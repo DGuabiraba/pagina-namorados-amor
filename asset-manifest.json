@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pagina-namorados-amor/static/css/main.2e9f4675.css",
-    "main.js": "/pagina-namorados-amor/static/js/main.bc03a764.js",
+    "main.css": "/pagina-namorados-amor/static/css/main.54a706e3.css",
+    "main.js": "/pagina-namorados-amor/static/js/main.71cdb9d1.js",
     "static/media/Zé Vaqueiro - COLADIN (Video Oficial).mp3": "/pagina-namorados-amor/static/media/Zé Vaqueiro - COLADIN (Video Oficial).24ad4f73700e46593bf2.mp3",
     "static/media/João Gomes Cantor.mp3": "/pagina-namorados-amor/static/media/João Gomes Cantor.9fa2a45f7d66d9402042.mp3",
     "static/media/Manu Bahtidão, Simone Mendes - Daqui Pra Sempre (Vídeo Oficial).mp3": "/pagina-namorados-amor/static/media/Manu Bahtidão, Simone Mendes - Daqui Pra Sempre (Vídeo Oficial).75c00c6d54e982c246ce.mp3",
@@ -18,11 +18,11 @@
     "static/media/20230624_125430.jpg": "/pagina-namorados-amor/static/media/20230624_125430.f4b7f93de1dd9b85c3ba.jpg",
     "static/media/20230610_215947.jpg": "/pagina-namorados-amor/static/media/20230610_215947.faa07a5fe775992164a5.jpg",
     "index.html": "/pagina-namorados-amor/index.html",
-    "main.2e9f4675.css.map": "/pagina-namorados-amor/static/css/main.2e9f4675.css.map",
-    "main.bc03a764.js.map": "/pagina-namorados-amor/static/js/main.bc03a764.js.map"
+    "main.54a706e3.css.map": "/pagina-namorados-amor/static/css/main.54a706e3.css.map",
+    "main.71cdb9d1.js.map": "/pagina-namorados-amor/static/js/main.71cdb9d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e9f4675.css",
-    "static/js/main.bc03a764.js"
+    "static/css/main.54a706e3.css",
+    "static/js/main.71cdb9d1.js"
   ]
 }
