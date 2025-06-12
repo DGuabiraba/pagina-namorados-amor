@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/pagina-namorados-amor/static/css/main.1b775bcd.css",
-    "main.js": "/pagina-namorados-amor/static/js/main.a74f536c.js",
-    "static/media/Zé Vaqueiro - COLADIN (Video Oficial).mp3": "/pagina-namorados-amor/static/media/Zé Vaqueiro - COLADIN (Video Oficial).24ad4f73700e46593bf2.mp3",
-    "static/media/20230326_201536.jpg": "/pagina-namorados-amor/static/media/20230326_201536.742083c21fc2768cb529.jpg",
-    "static/media/20230811_145749.jpg": "/pagina-namorados-amor/static/media/20230811_145749.90d3b8b989208bf6175a.jpg",
-    "static/media/20231231_234356.jpg": "/pagina-namorados-amor/static/media/20231231_234356.bd528f4026f941b44494.jpg",
-    "static/media/20241228_131351.jpg": "/pagina-namorados-amor/static/media/20241228_131351.75ef01de09a291f7b289.jpg",
-    "static/media/20241116_194816.jpg": "/pagina-namorados-amor/static/media/20241116_194816.493fa702c904ab03c9ef.jpg",
-    "static/media/20250420_155607.jpg": "/pagina-namorados-amor/static/media/20250420_155607.4389d9c0963a3bbc2e1c.jpg",
-    "static/media/20241012_134454.jpg": "/pagina-namorados-amor/static/media/20241012_134454.bfd083a0484795380b1a.jpg",
-    "static/media/20230715_175625.jpg": "/pagina-namorados-amor/static/media/20230715_175625.5ca75d8e1eb78760c0af.jpg",
-    "static/media/Screenshot_20220904-181439_One UI Home.jpg": "/pagina-namorados-amor/static/media/Screenshot_20220904-181439_One UI Home.bb491577a6f5da7c5479.jpg",
-    "static/media/20230624_125430.jpg": "/pagina-namorados-amor/static/media/20230624_125430.f4b7f93de1dd9b85c3ba.jpg",
-    "static/media/20230610_215947.jpg": "/pagina-namorados-amor/static/media/20230610_215947.faa07a5fe775992164a5.jpg",
-    "index.html": "/pagina-namorados-amor/index.html",
-    "main.1b775bcd.css.map": "/pagina-namorados-amor/static/css/main.1b775bcd.css.map",
-    "main.a74f536c.js.map": "/pagina-namorados-amor/static/js/main.a74f536c.js.map"
+    "main.css": "/static/css/main.cfc39519.css",
+    "main.js": "/static/js/main.2419ad8e.js",
+    "static/media/Zé Vaqueiro - COLADIN (Video Oficial).mp3": "/static/media/Zé Vaqueiro - COLADIN (Video Oficial).24ad4f73700e46593bf2.mp3",
+    "static/media/João Gomes Cantor.mp3": "/static/media/João Gomes Cantor.9fa2a45f7d66d9402042.mp3",
+    "static/media/Manu Bahtidão, Simone Mendes - Daqui Pra Sempre (Vídeo Oficial).mp3": "/static/media/Manu Bahtidão, Simone Mendes - Daqui Pra Sempre (Vídeo Oficial).75c00c6d54e982c246ce.mp3",
+    "static/media/20230326_201536.jpg": "/static/media/20230326_201536.742083c21fc2768cb529.jpg",
+    "static/media/20230811_145749.jpg": "/static/media/20230811_145749.90d3b8b989208bf6175a.jpg",
+    "static/media/20231231_234356.jpg": "/static/media/20231231_234356.bd528f4026f941b44494.jpg",
+    "static/media/20241228_131351.jpg": "/static/media/20241228_131351.75ef01de09a291f7b289.jpg",
+    "static/media/20241116_194816.jpg": "/static/media/20241116_194816.493fa702c904ab03c9ef.jpg",
+    "static/media/20250420_155607.jpg": "/static/media/20250420_155607.4389d9c0963a3bbc2e1c.jpg",
+    "static/media/20241012_134454.jpg": "/static/media/20241012_134454.bfd083a0484795380b1a.jpg",
+    "static/media/20230715_175625.jpg": "/static/media/20230715_175625.5ca75d8e1eb78760c0af.jpg",
+    "static/media/Screenshot_20220904-181439_One UI Home.jpg": "/static/media/Screenshot_20220904-181439_One UI Home.bb491577a6f5da7c5479.jpg",
+    "static/media/20230624_125430.jpg": "/static/media/20230624_125430.f4b7f93de1dd9b85c3ba.jpg",
+    "static/media/20230610_215947.jpg": "/static/media/20230610_215947.faa07a5fe775992164a5.jpg",
+    "index.html": "/index.html",
+    "main.cfc39519.css.map": "/static/css/main.cfc39519.css.map",
+    "main.2419ad8e.js.map": "/static/js/main.2419ad8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b775bcd.css",
-    "static/js/main.a74f536c.js"
+    "static/css/main.cfc39519.css",
+    "static/js/main.2419ad8e.js"
   ]
 }
